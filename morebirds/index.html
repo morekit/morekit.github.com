@@ -15,10 +15,13 @@ a:hover { text-decoration:underline;}
 .header .inner { width:960px; margin:0 auto; height:80px;}
 .header .logo { float:left; width:200px; height:80px; }
 .header .logo a { display:block; width:200px; height:80px; text-indent:-9999px; overflow:hidden; background:url(ui/images/logo.png) 0 0 no-repeat;}
+.header .logo a:hover { background:url(ui/images/logo.png) 0 -80px no-repeat;}
 .header .path { float:left; width:200px; height:80px; text-indent:-9999px; overflow:hidden; background:url(ui/images/morebirds_path.gif) 30px 50% no-repeat;}
 
-.theme { width:100%; height:830px; background:url(ui/images/theme.jpg) 50% 0 no-repeat;}
-	
+.theme { width:100%; height:830px; overflow:hidden; background:url(ui/images/theme.jpg) 50% 0 no-repeat;}
+.theme .download { margin:0 auto; width:960px; padding-top:750px; height:56px; }
+.theme .download .btn { float:right; height:56px; width:193px;}
+.theme .download .tips { float:right; height:56px; line-height:56px; padding-right:20px; font-size:18px; color:#666666; font-family:Microsoft YaHei, SimHei, SimSun, Verdana, Geneva, sans-serif;}
 </style>
 </head>
 <body>
@@ -29,7 +32,17 @@ a:hover { text-decoration:underline;}
 	</div>
 	</div>
 	
-	<div class="theme"></div>
+	<div class="theme">
+		<div style="display:none;">
+			<p>飞鸟集－Birds of China</p>
+			<p>你的观鸟最佳拍档</p>
+			<p>飞鸟集收录中国野外鸟类1000多种，可随时随地查阅资料，还可为发现和喜欢的鸟类进行标记，是专为观鸟爱好者和鸟类摄影师而设计的APP。</p>
+		</div>
+		<div class="download">
+			<span class="btn"><img src="ui/images/btn_download_on_appstore.png" /></span>
+			<span class="tips">iPhone版即将发布，敬请期待。</span>
+		</div>
+	</div>
 	
 	<div class="feature">
 		<div></div>
